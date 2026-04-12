@@ -101,7 +101,7 @@ validator.expect_column_values_to_be_between("amount", 0, 10000)
 
 In real systems, both tools can coexist:
 
-- ydantic → validates incoming data at service boundaries
+- pydantic → validates incoming data at service boundaries
 - Great Expectations → validates data across the pipeline
 
 ## Key takeaway
