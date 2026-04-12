@@ -1,0 +1,90 @@
+site_name: AI Platform Notes
+site_description: Notes on AI platforms, MLOps, data engineering, statistics, and secure ML infrastructure
+site_url: https://raulcmz.github.io/ai-platform-notes/
+repo_url: https://github.com/raulcmz/ai-platform-notes
+repo_name: raulcmz/ai-platform-notes
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - About this project: about.md
+  - Roadmap: roadmap.md
+
+  - ML Fundamentals:
+      - Overview: ml-fundamentals/index.md
+      - Questions: ml-fundamentals/questions/index.md
+      - Comparisons: ml-fundamentals/comparisons/index.md
+      - Concepts: ml-fundamentals/concepts/index.md
+      - Notes: ml-fundamentals/notes/index.md
+
+  - ML Coding:
+      - Overview: ml-coding/index.md
+      - Questions: ml-coding/questions/index.md
+      - Comparisons: ml-coding/comparisons/index.md
+      - Concepts: ml-coding/concepts/index.md
+      - Notes: ml-coding/notes/index.md
+
+  - ML System Design:
+      - Overview: ml-system-design/index.md
+      - Questions: ml-system-design/questions/index.md
+      - Comparisons: ml-system-design/comparisons/index.md
+      - Concepts: ml-system-design/concepts/index.md
+      - Notes: ml-system-design/notes/index.md
+
+  - ML Infrastructure Design:
+      - Overview: ml-infrastructure-design/index.md
+      - Questions: ml-infrastructure-design/questions/index.md
+      - Comparisons: ml-infrastructure-design/comparisons/index.md
+      - Concepts: ml-infrastructure-design/concepts/index.md
+      - Notes: ml-infrastructure-design/notes/index.md
+
+  - MLOps:
+      - Overview: mlops/index.md
+      - Questions: mlops/questions/index.md
+      - Comparisons:
+          - Overview: mlops/comparisons/index.md
+          - Great Expectations vs Pydantic: mlops/comparisons/great-expectations-vs-pydantic.md
+      - Concepts: mlops/concepts/index.md
+      - Notes: mlops/notes/index.md
+
+  - Data Engineering:
+      - Overview: data-engineering/index.md
+      - Questions: data-engineering/questions/index.md
+      - Comparisons: data-engineering/comparisons/index.md
+      - Concepts: data-engineering/concepts/index.md
+      - Notes: data-engineering/notes/index.md
+
+  - Statistics:
+      - Overview: statistics/index.md
+      - Questions: statistics/questions/index.md
+      - Comparisons: statistics/comparisons/index.md
+      - Concepts: statistics/concepts/index.md
+      - Notes: statistics/notes/index.md
+
+  - DevSecOps for ML:
+      - Overview: devsecops-for-ml/index.md
+      - Questions: devsecops-for-ml/questions/index.md
+      - Comparisons: devsecops-for-ml/comparisons/index.md
+      - Concepts: devsecops-for-ml/concepts/index.md
+      - Notes: devsecops-for-ml/notes/index.md

@@ -1,0 +1,1 @@
+Comparison-based notes for MLOps tools and patterns.
