@@ -54,7 +54,6 @@ Think of it this way:
 
 ## Side-by-side comparison
 
-## Side-by-side comparison
 
 | Aspect | Pydantic | Great Expectations |
 |---|---|---|
