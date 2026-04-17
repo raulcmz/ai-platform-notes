@@ -99,8 +99,7 @@ print(cm)
 ## Visual walkthrough
 
 <video controls width="100%" style="border-radius: 12px;">
-  <source src="../../assets/videos/confusion-matrix.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  <source src="../../assets/videos/confusion-matrix.mp4">
 </video>
 
 
