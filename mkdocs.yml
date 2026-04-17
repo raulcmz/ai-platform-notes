@@ -35,7 +35,9 @@ nav:
       - Overview: ml-fundamentals/index.md
       - Questions: ml-fundamentals/questions/index.md
       - Comparisons: ml-fundamentals/comparisons/index.md
-      - Concepts: ml-fundamentals/concepts/index.md
+      - Concepts:
+          - Overview: ml-fundamentals/concepts/index.md
+          - Confusion Matrix Explained: ml-fundamentals/concepts/confusion-matrix.md
       - Notes: ml-fundamentals/notes/index.md
 
   - ML Coding:
