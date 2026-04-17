@@ -98,8 +98,6 @@ print(cm)
 
 ## Visual walkthrough
 
-## Visual walkthrough
-
 <video controls width="100%" preload="metadata" style="border-radius: 12px;">
   <source src="../../assets/videos/confusion-matrix.mp4" type="video/mp4">
   Your browser does not support the video tag.
