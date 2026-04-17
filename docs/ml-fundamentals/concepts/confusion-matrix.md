@@ -96,6 +96,14 @@ cm = confusion_matrix(y_true, y_pred)
 print(cm)
 ```
 
+## Visual walkthrough
+
+<video controls width="100%" preload="metadata">
+  <source src="../../assets/videos/confusion-matrix.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ## Key takeaway
 
 A confusion matrix tells you not just how often your model is right,
